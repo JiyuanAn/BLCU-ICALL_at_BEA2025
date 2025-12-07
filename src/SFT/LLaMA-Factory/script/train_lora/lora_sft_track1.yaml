@@ -1,0 +1,44 @@
+### model
+model_name_or_path: ###<Qwen2.5-7B-Instruct模型路径>
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_target: all
+
+### dataset
+dataset: mrbench_v3_devset_train_track1
+template: qwen
+cutoff_len: 2048
+max_samples: 1000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: saves/lora/sft/track1
+logging_steps: 10
+save_steps: 500
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 4
+lora_dropout: 0.1
+learning_rate: 2.0e-5
+num_train_epochs: 24.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+deepspeed: examples/deepspeed/ds_z3_offload_config.json
+
+### eval
+eval_dataset: mrbench_v3_devset_dev_track1
+# val_size: 0.05
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 50
+save_steps: 25

@@ -1,0 +1,2460 @@
+[
+    {
+        "conversation_id": "221-362eb11a-f190-42a6-b2a4-985fafdcfa9e",
+        "conversation_history": "Tutor: Hi, could you please provide a step-by-step solution for the question below? The question is: Tyson decided to make muffaletta sandwiches for the big game.  Each sandwich required 1 pound each of meat and cheese and would serve 4 people.  There would be 20 people in total watching the game.  The meat cost $7.00 per pound and the cheese cost $3.00 per pound.  How much money would he spend on the meat and cheese to make enough sandwiches to serve 20 people? \n Student: To serve 20 people, Tyson needs to make 20/4 = 5 sandwiches.\nEach sandwich requires 1+1 = 2 pounds of meat and cheese.\nFor 5 sandwiches, he needs a total of 2 x 5 = 10 pounds of meat and cheese.\nThe cost of 10 pounds of meat is 10 x $7.00 = $70.\nThe cost of 10 pounds of cheese is 10 x $3.00 = $30.\nThe total cost of meat and cheese is $70 + $30 = $100.\n 100 \n Tutor: How many pounds of meat are needed for each sandwich? \n Student: Each sandwich requires 1 pound of meat and 1 pound of cheese. \n Tutor: What is the cost of 1 pound of meat? \n Student: The cost of 1 pound of meat is $7.00.",
+        "tutor_responses": {
+            "Sonnet": {
+                "response": "Great, you've correctly identified the cost of the meat, now let's focus on calculating the total cost of meat for all the sandwiches needed.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: B"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "Now that we know the cost of 1 pound of meat is $7.00, we can use this information to find the correct total cost for the meat and cheese needed for the muffaletta sandwiches.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "To some extent",
+                    "Actionability": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: B"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "You're close, but I notice that you calculated the cost of 10 pounds of meat, when actually 5 pounds of meat are needed for 5 sandwiches, since each sandwich requires 1 pound of meat; can you recalculate the cost of the meat?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "That's correct. So, if 1 pound of meat costs $7.00, then for 5 sandwiches, you need 5 * $7.00 = $35.00 for the meat. Can you try calculating the cost for the cheese now?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "It seems like you've calculated the cost as if all 10 pounds were meat, but remember that half of that weight is cheese, which has a different cost.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "And if there are 5 sandwiches, what is the meat cost?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "You're absolutely right about the cost of meat, but remember that each sandwich needs both meat and cheese, so we need to figure out the total cost of both ingredients for each sandwich. ",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "To some extent",
+                    "Actionability": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "To find the area of a rectangle, multiply its length by its width.\n\n(Note: This instruction does not require a tutor response as it is a direct instruction to the student.)",
+                "annotation": {
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "To some extent",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "4642-e2ccfa55-280b-421c-9245-25ff56e3f33e",
+        "conversation_history": "Tutor: Hi, could you please provide a step-by-step solution for the question below? The question is: In a rice field, you can get a total of 20 sacks of rice every harvest. If the yield increases by twenty percent after every harvest, what is the total number of sacks of rice you can get after the first and second harvest? \n Student: After the first harvest, the yield will increase by 20% of 20 sacks, which is 4 sacks. So the total number of sacks after the first harvest is 20 + 4 = 24 sacks.\nAfter the second harvest, the yield will increase by 20% of 24 sacks, which is 4.8 sacks. So the total number of sacks after the second harvest is 24 + 4.8 = 28.8 sacks (rounded to one decimal place).\n 28.8 \n Tutor: Please talk me through your answer \n Student: After the first harvest, I calculated that the total number of sacks would be 20 + 20% of 20, which is 4, so the total number of sacks after the first harvest would be 24. Then, for the second harvest, I calculated that the total number of sacks would be 24 + 20% of 24, which is 4.8, so the total number of sacks after the second harvest would be 28.8. \n Tutor: How many sacks in the first yeild? \n Student: The first yield was 20 sacks. \n Tutor: right and if you get an additional 20% on the second harvest how much is that? \n Student: The additional 20% on the second harvest is 4.8 sacks, so the total number of sacks after the second harvest is 28.8 sacks.",
+        "tutor_responses": {
+            "GPT4": {
+                "response": "You're doing great! But remember, the 20% increase for the second harvest should be calculated from the original yield of 20 sacks, not from the increased yield of 24 sacks.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "I see where you're going with this, but let's take a closer look at how we calculate the total after both harvests, not just the second harvest alone.",
+                "annotation": {
+                    "Mistake_Identification": "To some extent",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No",
+                    "Actionability": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "No. What is 20% of 20?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "You calculated the 20% correctly as 4.8 sacks for the second harvest, but let's calculate it step by step to double-check: 20% of 24 sacks is actually (20/100) * 24 = 0.2 * 24 = 4.8, which looks correct, however, this 4.8 represents 20% of the second harvest, not the increase in sacks from the second harvest.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "To some extent",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: B"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "\"Remember, the 20% increase is based on the original yield of 20 sacks, not the total after the first harvest.\"",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "It looks like you're close, but I think there might be a misunderstanding about how to calculate the total number of sacks after the second harvest - let's take a closer look at how the 20% increase applies to the original 20 sacks from the second harvest, rather than the total from the first harvest.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "To some extent",
+                    "Actionability": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "You're right about the increase in sacks, but remember that we're adding the increase to the *previous* harvest's total, not just the initial 20 sacks. ",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "To some extent",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "To find the total number of sacks after the second harvest, add the initial amount to the additional sacks: 24 sacks + 4.8 sacks = 28.8 sacks.",
+                "annotation": {
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "To some extent",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "258053434",
+        "conversation_history": "Tutor: You earn one point for your good beginning. \n Tutor: That was a good try. \n Tutor: What is the value of 3^3? \n Student: 9",
+        "tutor_responses": {
+            "Sonnet": {
+                "response": "Let's double-check that: 3^3 means 3 multiplied by itself three times, so it's 3 x 3 x 3, which equals 27.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Novice": {
+                "response": "That was a good try. An exponent is a number or letter written above and to the right of a mathematical expression called the base. It indicates that the base is to be raised to a certain power. 3 is the base and 3 is the exponent or power. So, you have to multiply 3 for 3 times. Good work so far.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: B"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "Here is the revised response:\\n\\n\"Almost, but 3^3 actually means 3 multiplied by itself 3 times, so it would be 3 x 3 x 3 = 27, not 9.\"",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "That's a good effort, but actually, 3^3 means 3 multiplied by itself three times, which equals 27.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "Remember, 3 to the power of 3 means 3 multiplied by itself three times: 3 x 3 x 3.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "\"Remember, 3^3 means 3 multiplied by itself 3 times, which is 3 * 3 * 3.\"",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "Great try! You solved the problem 3x3. Can you recall what an exponent does to a number?",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "You're on the right track, but let's see if we can simplify it further, 3^3 actually equals 3 multiplied by itself 3 times, which gives us 3*3*3 = 27.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "Actually, the value of 3^3 is 27, not 9. Great effort though!",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "429563766",
+        "conversation_history": "Student: okey \n Tutor: Now we have the same denominators so we can subtract the numerators directly. \n Tutor: What is 25 minus 18? \n Student: 8",
+        "tutor_responses": {
+            "Llama31405B": {
+                "response": "That's close, but let's double-check - if we have 25 and subtract 18, wouldn't we actually get 7?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "Hmm, let's double-check that subtraction together - can you show me how you got 8?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "You're correct, 25 minus 18 is 7, so let's update our work to get the correct result for 5/9 - 1/9.",
+                "annotation": {
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Novice": {
+                "response": "Please recheck your answer.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No",
+                    "Actionability": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: B"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "Great job! Now, what is 8/16 as a simplified fraction?",
+                "annotation": {
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "Can you double check that? You can do 8 + 18 and see if you get 25.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "That's close, but not quite right. If we subtract 18 from 25, we actually get 7. Let's try another one.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "Great try! Remember when subtracting, the answer should be 7 since 25 - 18 equals 7. Let's try another one together!",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "That's great! So our answer is 8/20.  Remember, we can always try to simplify our fractions if possible! ",
+                "annotation": {
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: B"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "2490-377791e8-3745-4eca-bea1-d07b6eb67afe",
+        "conversation_history": "Tutor: Hi, could you please provide a step-by-step solution for the question below? The question is: Yulia was able to net $44 in profit this week. Her lemonade stand made a gross revenue of $47 this week. She was also able to babysit and made $31. However, her lemonade stand is expensive to run because she needs to buy lemons, sugar, and sunscreen. How much did she spend to operate her lemonade stand, in dollars? \n Student: Yulia's total earnings from both her lemonade stand and babysitting are $44 + $47 + $31 = $122.\nLet x be the amount she spent to run her lemonade stand.\nThen her profit is $47 - x.\nAnd we know that her total profit is $44.\nSo we can set up an equation: $47 - x = $44\nSolving for x, we get: x = $3\nTherefore, Yulia spent $3 to operate her lemonade stand. \n 3 \n Tutor: tell me step by step how you worked this out please? \n Student: First, I added up Yulia's total earnings from her lemonade stand and babysitting, which was $44 + $47 + $31 = $122. Then, I let x be the amount she spent to run her lemonade stand. After that, I figured out her profit was $47 - x. Since we know her total profit was $44, I set up an equation: $47 - x = $44. Finally, I solved for x and got x = $3. So, Yulia spent $3 to operate her lemonade stand.",
+        "tutor_responses": {
+            "Gemini": {
+                "response": "It looks like you're on the right track, but you need to remember that the $44 profit only comes from the lemonade stand, not her total earnings.",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "I understand your thought process, but there seems to be a mistake in your calculations. Yulia's total profit of $44 came from both her lemonade stand and babysitting, not just the lemonade stand. So, we need to consider both earnings when calculating the operating cost of the lemonade stand.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "I can see that you made a good effort in setting up the equation, but I noticed that the initial step of adding up Yulia's total earnings seems unnecessary and might have caused some confusion - can you think about why we might not need to add up all those numbers to solve for the cost of running the lemonade stand?",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "It seems like you've added Yulia's net profit ($44) instead of her gross revenue from the lemonade stand ($47) when calculating her total earnings.",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "You started correctly by adding up Yulia's total earnings from her lemonade stand and babysitting as $122, but then you should have set up the correct equation that accounts for both her total earnings and total expenses to find her operating cost, not just focusing on the profit from the lemonade stand.",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "To solve a quadratic equation, you can use the quadratic formula: x = (-b ± √(b² - 4ac)) / (2a).",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "ok let us use the information to help us what was her gross revenue this week?",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "To some extent",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: B"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "I appreciate your detailed explanation, but let's take a closer look at how we're calculating Yulia's profit, as there seems to be a misunderstanding about which numbers represent her earnings versus her profit.",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "2771-097c0756-e6df-4b75-8fd2-19024c173cb7",
+        "conversation_history": "Tutor: Hi, could you please provide a step-by-step solution for the question below? The question is: A small store made 50 posters to advertise their products. Two-fifths of them are small posters while half of them are medium posters. The rest are large posters. How many large posters are there? \n Student: Two-fifths of the posters are small, which means 3/5 of them are either medium or large.\nLet x be the total number of medium and large posters.\nSo 2/5x is the number of small posters.\nAnd 2/5x + 50 = x is the total number of posters.\nSolving for x, we get x = 80.\nTherefore, there are 80 - 50 = 30 large posters.\n 30 \n Tutor: You have the first part correct at 20 \n Student: Yes, I got that right. But then I got confused about the total number of posters and I ended up with the wrong answer. \n Tutor: So half of 50 are medium added to 20 \n Student: Yes, that's right. So the total number of posters would be 70 and the number of large posters would be 70 - 50 = 20.",
+        "tutor_responses": {
+            "Sonnet": {
+                "response": "I appreciate you working through this problem step-by-step, but let's take another look at the total number of posters given in the original question and how that affects our calculation.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "\"Notice that the total number of posters is always 50, so let's find the number of medium and large posters within that total.\"",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: B"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "I see where you're coming from, but remember that we already know the total number of posters is 50. So, if 20 are small and 25 are medium, we subtract these from the total, giving us 50 - 20 - 25 = 5 large posters.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "To find the number of large posters, subtract the number of small posters from the total number of posters: 70 - 50 = 20 large posters.\n\nTutor response (maximum one sentence): There are 20 large posters.",
+                "annotation": {
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "You're right to focus on the total number of posters, but remember that the medium posters are half of the *total* 50, not half of the remaining posters after the small ones are removed. ",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "So we start with 50 minus 45",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "I think there's still a small mistake, let's calculate the total number of posters for medium and large combined, which is 20 (small) + 25 (medium) = 45, so if we subtract this from the total number of posters, 50, we get the number of large posters.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "It looks like you got close, but let's revisit the problem: you correctly found that 2/5 of the 50 posters are small, which is 20 posters, and then half of the 50 posters are medium, which is 25 posters, so the number of large posters would be 50 - (20 + 25) = 5 posters.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "416999530",
+        "conversation_history": "Tutor:  Look at the board. \n Student: okayyy \n Tutor: What is 12+3=? \n Student: the Ar is 13",
+        "tutor_responses": {
+            "Mistral": {
+                "response": "It looks like you're on the right track! Just remember, when we talk about area, we multiply the two numbers instead of adding them.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "To some extent",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: B"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "That's a good try, but remember to use lowercase letters and put the equals sign between numbers; so it should be 12 + 3 = 15. Let's keep practicing!",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "Great try! Let's try adding the ones place first.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "You're close!  Remember, the \"Ar\" stands for Area.  We need to find the total space inside the shape, not just add the length and width.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Novice": {
+                "response": "Good try! Please recheck your answer.",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "To some extent",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "I think you might be mixing up the question with the area problem on the board, and the question I asked was actually about addition, can you try that again for me, like 12 + 3?",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "I appreciate your effort, but let's take another look at the question and work through it step-by-step to find the correct sum of 12 and 3.",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "That was a good try, but actually, when you add 12 and 3 together, the answer is 15, not 13. Let's try again.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "I can see you're close, but let's recount the area together - if we have 12 and add 3 more, wouldn't that make 15, not 13?",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "3260-394d7d67-8e4d-4847-87bb-f792e382524f",
+        "conversation_history": "Tutor: Hi, could you please provide a step-by-step solution for the question below? The question is: A window has 4 glass panels each. A house has 6 double windows downstairs and 8 single windows upstairs. How many glass panels are there in the whole house? \n Student: There are 6 x 2 = 12 double windows downstairs.\nThere are 8 x 1 = 8 single windows upstairs.\nThe number of glass panels in the double windows downstairs is 12 x 4 x 2 = 96.\nThe number of glass panels in the single windows upstairs is 8 x 4 x 1 = 32.\nTherefore, the whole house has 96 + 32 = 128 glass panels.\n 128 \n Tutor: I agree that there are 12 windows downstairs and 8 uptairs. So how many is that in the whole house?  \n Student: 12 x 4 x 2 = 96 downstairs and 8 x 4 x 1 = 32 upstairs. That makes 96 + 32 = 128 glass panels in the whole house.",
+        "tutor_responses": {
+            "Sonnet": {
+                "response": "I appreciate your detailed work, but let's take a closer look at how we're counting the double windows downstairs - do they really need to be multiplied by 2 again?",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "\"Remember, a double window has two panels, so it's 6 double windows x 2 panels each, not 4.\"",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "You're right about the number of glass panels in each type of window, but we need to focus on the total number of windows in the house before we calculate the glass panels.",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "I notice that you're multiplying the number of windows by 4 and then by 2 for the double windows, but I want to clarify that the \"double\" in double windows refers to the number of windows, not the number of glass panels per window; each window still has 4 glass panels, so we might want to recalculate the total number of glass panels.",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "You're really close, but remember, there are 6 double windows downstairs, not 12. So the correct calculation should be 6 * 2 * 4 for downstairs and 8 * 4 for upstairs. Give it another try!",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "To solve a quadratic equation, you can use the quadratic formula: x = (-b ± √(b² - 4ac)) / (2a).\n\nThis formula provides the solutions for any quadratic equation in the form ax² + bx + c = 0.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "12 downstairs + 8 upstairs.",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "I see what you're doing, but the calculation for the number of windows in the whole house is 12 + 8, and then you multiply by the number of panels per window, which would be 4.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "3121-6e8e5a1f-707a-47bd-982d-2c2529101bce",
+        "conversation_history": "Tutor: Hi, could you please provide a step-by-step solution for the question below? The question is: Tom originally was only able to lift 80  kg farmer handles per hand.  After some training, he was able to double this number.  He then decided to specialize and was able to get an extra 10%.  How much weight can he hold in total?\n Student: Tom was originally able to lift 80 kg per hand.\nAfter training, he was able to lift 80 x 2 = 160 kg per hand.\nAfter specializing, he can lift an extra 10%, which is 0.1 x 160 = 16 kg more per hand.\nSo, Tom can now lift a total of 160 + 16 = 176 kg in total.\n 176 \n Tutor: What is the solution to this\n Student: The solution is 176 kg\n Tutor: How did you get there \n Student: Tom was originally able to lift 80 kg per hand. After training, he was able to lift 80 x 2 = 160 kg per hand. After specializing, he can lift an extra 10%, which is 0.1 x 160 = 16 kg more per hand. So, Tom can now lift a total of 160 + 16 = 176 kg in total.",
+        "tutor_responses": {
+            "Phi3": {
+                "response": "Great job! Now, let's try solving a similar problem together to reinforce your understanding.",
+                "annotation": {
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "Are you sure he can lift 80kg per hand?",
+                "annotation": {
+                    "Mistake_Identification": "To some extent",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "To some extent",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "That's a good attempt, but the calculation looks mostly correct except for one small detail - when calculating the extra 10% after specialization, you used 160 kg instead of doubling it first to get 320 kg per hand, so the correct extra amount would be 0.1 x 320 = 32 kg more per hand.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "To some extent",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "\"I see how you arrived at 176 kg, but remember that Tom can lift that amount with each hand, so we need to calculate the total for both hands.\"",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "Great job on showing your work, but let's take a closer look at the final step to make sure we're considering the total weight for both hands.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "It looks like you correctly calculated the weight Tom can lift per hand after training and specializing, but remember that the question asks for the total weight he can hold, so we need to consider that he is lifting with both hands - can you think of how to adjust your calculation to account for that?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "It looks like you calculated the extra weight he can lift after specializing correctly, but remember to add that to the 160 kg he can already lift per hand, then multiply by 2 for both hands.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "You've done a great job calculating the weight Tom can lift per hand, but remember, he has two hands. So, to find the total weight he can lift, we need to multiply the weight per hand by two.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "292861665_1",
+        "conversation_history": "Tutor:  Finally, we need to add the areas of both rectangles. \n Tutor: Go ahead and try to find the answer. \n Tutor: What is the value of 36+42? \n Student: 1,512",
+        "tutor_responses": {
+            "Sonnet": {
+                "response": "That's an interesting answer, can you walk me through how you got 1,512 so we can check your steps together?",
+                "annotation": {
+                    "Mistake_Identification": "To some extent",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "No",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "It looks like there may have been a small mix-up in your addition; the correct sum of 36 and 42 is actually 78. Let's try that again together!",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "I think there might be a small mistake there, let's take a closer look at our addition problem, 36 + 42, and see if we can use a strategy like counting on or breaking it down into tens and ones to help us find the correct answer.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Novice": {
+                "response": "That was a very good try.",
+                "annotation": {
+                    "Mistake_Identification": "To some extent",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "I think there might have been a mistake in adding the areas of the rectangles, because 36 and 42 are actually quite small numbers, and 36+42 would be much simpler than 1,512.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "It looks like you might have added an extra zero, let's try again: what is 36 + 42 without the zero?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "No",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "That's a good try, but it seems like you multiplied instead of added. Let's try again, what do you get when you add 36 and 42?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "Great try - looks like you solved the problem 36 x 42.",
+                "annotation": {
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "That's a great try! Remember, when adding, we look for the total value.  Let's try breaking down 36 and 42 into tens and ones to help us add them correctly.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "3371-1a544434-fb2c-415c-ba29-658642b6d1e7",
+        "conversation_history": "Tutor: Hi, could you please provide a step-by-step solution for the question below? The question is: The number of goals scored in a game against Barca by exactly two players last season accounts for 20% of all goals scored in the league. If the players scored an equal number of goals, and the total number of goals scored in the league against Barca that season is 300, calculate the number of goals each of the two players scored. \n Student: If the number of goals scored by two players against Barca last season accounts for 20% of all goals scored in the league, then the total number of goals scored in the league is 100/20% x 300 = 1500 goals.\nSince the players scored an equal number of goals, the total number of goals scored by the two players is 20% of 1500 = 300 goals.\nEach player scored 300/2 = 150 goals.\n 150 \n Tutor: can you talk me through your answer?  \n Student: Sure I started by figuring out the total number of goals scored in the league. I knew that 20% of that was equal to the number of goals scored by the two players so I divided 300 by 20% to get the total number of goals scored in the league which was 1500. Then I knew that the two players scored an equal number of goals so I divided the total number of goals scored by the two players (which was 20% of 1500) by two to get the number of goals each player scored which was 150. \n Tutor: Ok talk to me about your thinking around 100 divide 20 instead of 20 divide 100?  \n Student: I realized that I had made a mistake when I was thinking about the problem. I was thinking that I had to divide 20 by 100 to get the total number of goals scored in the league when I should have been dividing 100 by 20%. I realized that if I divided 100 by 20% I would get the total number of goals scored in the league which was 1500.",
+        "tutor_responses": {
+            "Expert": {
+                "response": "Ok so what should you do? And what answer do you arrive at now?",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "To some extent",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "However, to convert a percentage to a decimal, you need to divide by 100, not divide 100 by the percentage, so you would actually do 100 ÷ 20 or 100/20 to get 5, and then multiply that by 300 to find the correct answer.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "That's great you caught your mistake!  Remember, to find the whole when you know a percentage, you divide the percentage by 100 and then multiply by the part.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "To find the total number of goals scored in the league, multiply the average number of goals per team by the total number of teams.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "It's great that you caught your mistake, just remember that to find the whole, you divide the part by the percentage in decimal form, so it should be 300 / 0.20.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "I see where you're coming from, but remember that when we say \"20% of the total goals\", we're actually talking about 20 out of every 100 goals, not 100 out of every 20. So, in this case, 20% of the total number of goals (300) would be 300*20/100, which is 60 goals. As the two players scored an equal number of goals, each player would have scored 60/2 = 30 goals.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "It seems like there's a misunderstanding in how percentages work, so let's clarify that 20% of a number is actually found by multiplying that number by 0.20, not dividing it - can you think about how that might change your approach to finding the number of goals each player scored?\"",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "I appreciate you explaining your thought process, and I'm glad you recognized the mistake with the percentage calculation - that's a great step towards improving your understanding of these types of problems.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "2672-c8c14096-d003-49fc-8aae-371660962a45",
+        "conversation_history": "Tutor: Hi, could you please provide a step-by-step solution for the question below? The question is: You can lower the price by 20% if you buy more than fifteen units of iPhone cases. If you pay $500 to buy 18 units, what is the original price? \n Student: First, let's find the price per unit after the 20% discount:\nIf the original price is x, then the discounted price is 0.8x (since 20% off is the same as multiplying by 0.8). We know that this discounted price is what we paid for 18 units, so:\n\n18(0.8x) = 500\n\nSimplifying this equation:\n\n14.4x = 500\n\nx = 34.72 (rounded to two decimal places)\n\nTherefore, the original price per unit was $34.72.\n 34.72 \n Tutor: can you talk me through your solution? \n Tutor: Hi Student can you talk me through your solution? \n Student: Sure! I started by finding the price per unit after the 20% discount. I knew that the original price was x so I multiplied it by 0.8 to get the discounted price. Then I knew that this discounted price was what we paid for 18 units so I set up an equation with 18 multiplied by 0.8x equal to 500. After simplifying the equation I got x = 34.72 which is the original price per unit. \n Tutor: Ok let's start with the first step. How much is 80% of the total cost? \n Student: 80% of the total cost is 0.8x. So if the original price is x then the discounted price is 0.8x. \n Tutor: let's focus on the overall amount rather than the unit amount \n Student: Sure. We know that the total amount paid for 18 units was $500. So I set up an equation with 18 multiplied by 0.8x equal to 500. After simplifying the equation I got x = 34.72 which is the original price for the total amount.",
+        "tutor_responses": {
+            "Expert": {
+                "response": "so for the first step, 18 units is $500, which is 80%",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "That's a great start, but remember that $500 represents the *total* cost after the discount, not just the cost of 18 units at the original price. ",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "I see where you're coming from, but there seems to be a misunderstanding. When we say 18 units cost $500 after a 20% discount, it means $500 is 80% of the original total cost. Let's try to solve it again with this in mind.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "To be honest, you were very close, but I think there might be a misunderstanding. When we simplify the equation 14.4x = 500, dividing both sides by 14.4 should give us the total cost for one unit, not the total cost of all units.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "Great job! Now, let's move on to solving equations with variables on both sides.",
+                "annotation": {
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "It seems there might be a small mix-up; remember, we're looking for the original total price before the discount, not the per-unit price.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "You've made a great start, but I think there might be a misunderstanding - the equation 18(0.8x) = 500 implies that the $500 is the cost for 18 units after the discount, but what we actually know is that the total amount paid, $500, is 80% of the original price for 18 units.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "To some extent",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "I appreciate your effort, but let's take a step back and consider the total amount paid ($500) as 80% of the original price, rather than focusing on the per-unit cost initially.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "1691-e881a56e-3e20-41f6-a985-f0e3720a8d6b",
+        "conversation_history": "Tutor:  Hi, could you please provide a step-by-step solution for the question below? The question is: Julia was preparing for a dinner party at her house, where she intended to serve stew.  She noticed that she was out of plastic spoons, so she bought a new package of spoons.  Later, her husband also bought a package of 5 new spoons and gave them to Julia.  While Julia was making the stew, she used three of the spoons to sample her stew.  Later, when she went to set the table, she had a total of 12 spoons.  How many spoons were in the package that Julia bought? \n Student: Let's call the number of spoons Julia bought \"x\". \nHer husband bought 5 more spoons, so the total number of spoons is now x + 5. \nJulia used 3 spoons to sample her stew, so she had 12 - 3 = 9 spoons left. \nWe know that the total number of spoons is x + 5, so we can set up an equation: \n\nx + 5 = 9 \n\nSubtracting 5 from both sides: \n\nx = 4 \n\nSo Julia bought a package of 4 spoons. \n 4 \n Tutor: you have had a good go at the question but you have the wrong answer. An equation was a good idea but it's not quite right. You are right that there are x=5 spoons. But you know that she used 3 of the spoons and was left with 12. so what is the right equation there? \n Student: Oh I see. The equation should be x + 3 = 12. So x = 9. Julia bought a package of 9 spoons. \n Tutor: Sorry there was typo in my message above. You were right that there was x+5 spoons. Can you have another go at setting up the equation?  \n Student: Sure. The equation should be x + 5 = 12. So x = 7. Julia bought a package of 7 spoons.",
+        "tutor_responses": {
+            "Sonnet": {
+                "response": "Great effort, but let's think about what happened to the 3 spoons Julia used for sampling - how should we include those in our equation?",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "You're close again, but let's think about it some more - if Julia started with x spoons and her husband added 5, then after using 3, there were 12 left, so the correct equation is x + 5 - 3 = 12.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "You're getting closer!  Remember, Julia used 3 spoons *before* her husband gave her more, so we need to account for that in our equation.",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "That's correct! Well done on correcting the equation, Julia did indeed buy a package of 7 spoons. Keep up the good work!",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "However, you're still missing one important detail - Julia used 3 spoons to sample her stew, so the correct equation should take that into account.",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "Great job setting up the correct equation this time!",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "What about the 3 lost spoons?",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "Great job! Now let's try solving a similar equation together.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "1921-aa2a1875-8a27-425b-b4ce-1b17c887d041",
+        "conversation_history": "Tutor: Hi, could you please provide a step-by-step solution for the question below? The question is: On March 1st the sun sets at 6 PM.  Every day after the sun sets 1.2 minutes later.  It is 6:10 PM and 40 days after March 1st.  How many minutes until the sun sets? \n Student: Since the sun sets 1.2 minutes later every day, in 40 days it will set 40 x 1.2 = 48 minutes later.\nSince the sun set on March 1st at 6 PM, it will set today at 6:10 PM + 48 minutes = 6:58 PM.\nThere are 60 minutes in an hour, so the sun sets 58 minutes after 6 PM.\nTherefore, there are 60 - 58 = 2 minutes until the sun sets.\n 2 \n Tutor: could you please walk me through your solution? \n Tutor: Hi  could you please walk me through your solution? \n Tutor: hi jian could you please explain the step 2 of your solution? \n Student: Sure. Step 2 was to calculate the amount of time that had passed since March 1st. Since the sun sets 1.2 minutes later every day in 40 days it will set 40 x 1.2 = 48 minutes later. So I added 48 minutes to the 6 PM sunset time on March 1st which gives us 6:10 PM + 48 minutes = 6:58 PM. \n Tutor: not quite right. 48minutes after 6:00PM is 6:48PM isn't it? \n Student: Oh that's right. I forgot to account for the 10 minutes that had already passed since 6 PM. So the correct answer is 6:48 PM + 38 minutes = 7:26 PM. Therefore there are 60 - 26 = 34 minutes until the sun sets.",
+        "tutor_responses": {
+            "GPT4": {
+                "response": "Actually, you are still adding an extra 10 minutes. The correct calculation would be 6:00 PM + 48 minutes = 6:48 PM. Since the current time is 6:10 PM, you should subtract this from 6:48 PM to find out how many minutes are left until sunset.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "You're very close, Jian, but remember that it's 6:10 PM now, not 6:00 PM, so we need to add the extra 10 minutes to the 48 minutes.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "Great job catching that mistake and adjusting your solution, but I'd like to clarify one more thing: why did you add 38 minutes to 6:48 PM instead of just using the fact that it's currently 6:10 PM and finding the difference between 6:10 PM and 6:48 PM?",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "You are correct that 48 minutes after 6:10 PM would be 6:58 PM, but then we should calculate the additional 1.2 minutes per day from 3/1 to 3/40, not from 6:00 to 3/40, to find the time it actually sets.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "\"Great catch! Let's re-evaluate based on that correction: 48 minutes after 6 PM is indeed 6:48 PM, so can you now find out how many minutes until the sun sets at that time?\"",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "Great job recalling the formula; now let's apply it to solve the problem together.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "not quite right. you have already deduced that the sun will set 48 minutes after 6:00pm . so you just need to add 48 minutes with 6:00pm to get the time at which the sun sets 40 days after march.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "That's much better, but let's double-check our calculation of the sunset time together to make sure we've accounted for everything correctly.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "To some extent",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "2932-f970d360-6e6c-4dcb-9b4c-fdd967c9529e",
+        "conversation_history": "Tutor: Hi, could you please provide a step-by-step solution for the question below? The question is: Chalktown High School had their prom last weekend. There were 123 Students who attended. If 3 Students attended on their own, how many couples came to the prom? \n Student: Let's call the number of couples that attended the prom \"c\". \n\nWe know that there were 123 Students total, and that 3 of them attended on their own. This means that the rest of the Students attended as couples. \n\nSo we can set up the equation: \n\ncouples + 3 = 123 \n\nSubtracting 3 from both sides: \n\ncouples = 120 \n\nSo there were 120 couples that attended the prom. \n\n 120 \n Tutor: could you please walk me through your solution? \n Student: Sure. I started by setting up an equation. I knew that there were 123 Students total and that 3 of them attended on their own so I set up the equation: couples + 3 = 123. Then I subtracted 3 from both sides of the equation to get couples = 120. So that means there were 120 couples that attended the prom. \n Tutor: jian are you sure that if you subtract the 3 people who attended on their own from the 123 total Students then do you get the number of couples? \n Student: Yes that is correct. If there were 123 Students total and 3 of them attended on their own then the remaining 120 Students must have attended in couples. \n Tutor: that is correct. but how many couples were there isn't that the question/ \n Student: Yes that is the question. So if there were 123 Students total and 3 of them attended on their own then the remaining 120 Students must have attended in couples. Therefore there were 120 couples that attended the prom. \n Tutor: a couple means  a pair or you can say two people together as a unit. \n Student: Yes that is correct. A couple means two people together as a unit. So if there were 123 Students total and 3 of them attended on their own then the remaining 120 Students must have attended in couples of two. Therefore there were 120 couples that attended the prom.",
+        "tutor_responses": {
+            "Llama318B": {
+                "response": "I think there's a small issue with your reasoning - since each couple has 2 people, when you subtract the 3 individual students from the total of 123 students, you're left with 120, but that doesn't necessarily mean 120 full couples because some couples have been counted twice.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "I think I see where the mistake is, Jian - if there are 120 students who attended in couples, and each couple is made up of 2 people, then wouldn't we need to divide 120 by 2 to find the number of couples?",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "if i tell you that a centipede has 100 legs in total, so how many pairs of legs does it have?",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "To some extent",
+                    "Mistake_Location": "To some extent",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: B"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "I appreciate your effort, but let's think about this together: if a couple is two people, how many couples would 120 students form?",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "If 120 students attended in couples, that means there were 60 couples, not 120.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "Great job! Now, let's move on to understanding fractions and decimals.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "I see where you're coming from, but remember that a couple consists of 2 people. So, if 120 students attended as couples, we should divide 120 by 2 to find the number of couples. Let's try that.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "Remember, if 120 students are all in couples, we need to divide that number by 2 to find out how many couples there were.",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "398186338",
+        "conversation_history": "Student: ok i got the answer \n Tutor: You have to divide this fraction using the long division method. \n Tutor: What is the value for 72 times 5? \n Student: 310",
+        "tutor_responses": {
+            "Mistral": {
+                "response": "It seems there might be a small mistake; let's recheck the multiplication of 72 and 5.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "I appreciate your effort, but let's double-check that calculation together - can you walk me through how you got 310?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "Actually, the correct value for 72 times 5 is 360, not 310. Let's try solving the fraction division again.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "The value of 72 multiplied by 5 is actually 360, not 310, let's go back and recalculate your original problem together so we can find the correct answer.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Novice": {
+                "response": "Please recheck your answer.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: B"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "Good effort, but the correct answer when you multiply 72 by 5 is 360. Let's try it again together.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "It looks like there might be a mistake in your multiplication - 72 times 5 is actually 360, not 310.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "Oh you're very close. 62 times 5 = 310, but 72 times 5 is a little bigger",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "Let's double-check that multiplication,  72 times 5 is a bit more than that. ",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "2101-7dc9271a-54d5-470e-9008-42238b83b16d",
+        "conversation_history": "Tutor: Hi, could you please provide a step-by-step solution for the question below? The question is: Hansel has a created album on Spotify that contains 25 songs and each song is 3 minutes long. If she adds 10 more songs to the album with the same duration, how many minutes will it take her to finish all the songs in the album? \n Student: The total duration of the original 25 songs is 25 x 3 = 75 minutes.\nThe total duration of the album after adding 10 more songs is (25 + 10) x 3 = 105 minutes.\nTherefore, it will take Hansel 75 + 105 = 180 minutes to finish all the songs in the album.\n 180 \n Tutor: Hey Claire, can you work me through your solution please? \n Student: Sure. I started by calculating the total duration of the original 25 songs, which is 25 x 3 = 75 minutes. Then, I calculated the total duration of the album after adding 10 more songs, which is (25 + 10) x 3 = 105 minutes. Finally, I added the two numbers together to get the total duration of 180 minutes. \n Tutor: Can you tell me why you have added the two figures together? \n Student: I added the two figures together because the total duration of the album is the sum of the duration of the original 25 songs and the duration of the 10 additional songs. So, the total duration of the album is 75 minutes (from the original 25 songs) plus 105 minutes (from the 10 additional songs), which equals 180 minutes.",
+        "tutor_responses": {
+            "Phi3": {
+                "response": "Great job! To further enhance your understanding, let's explore another example involving fractions.",
+                "annotation": {
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "It seems like you've double-counted the duration of the original 25 songs, let's re-evaluate that part.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "I think I see where the mistake is, Claire - it looks like you've added the total duration of the original 25 songs to the total duration of the entire album, including those original 25 songs, which means you've counted the original 25 songs twice.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "I understand your thought process, but there seems to be a misunderstanding. When you calculated (25 + 10) x 3 = 105 minutes, you already had the total duration of all the songs, both original and new. So, there's no need to add the 75 minutes from the original songs again.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "That's a good approach, Claire, but let's think about this in another way: if the original 25 songs take 75 minutes to play, and each additional song takes 3 minutes to play, how much time do those 10 new songs add up to in total?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "Claire, you're on the right track with finding the individual durations, but remember that the 105 minutes represents the added songs *after* the initial 75 minutes. You wouldn't add them together, but rather combine them. ",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "To some extent",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "I appreciate you explaining your thought process, but let's take a closer look at why we don't need to add those two durations together to find the total time for all songs in the album.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "Let's think of this another way, how many songs are now on the album?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "401412251",
+        "conversation_history": "Tutor: Now you'll see the next question on the board. \n Tutor: Go ahead and give your best answer. \n Tutor: How many minutes per hour? \n Student: 44",
+        "tutor_responses": {
+            "GPT4": {
+                "response": "That's a good try, but actually there are 60 minutes in an hour. Let's remember this for next time!",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "I see you said 44 minutes in an hour, but remember, we just learned that there are actually 60 minutes in one hour, can you think about how that might help us solve this problem?",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "That's a great try!  Remember, there are 60 minutes in one hour. Let's think about how we can use that to solve the problem.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "Let's rethink that—since there are 60 seconds in a minute, how many minutes do you think are in an hour?",
+                "annotation": {
+                    "Actionability": "Yes",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "That's a good try, but let's think about it again - there are 60 minutes in each hour, not 44. Could you try counting them together with me?",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "I appreciate your effort, but let's think about this together: how many minutes are there in one full hour on a clock?",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Novice": {
+                "response": "Excellent effort. Let me explain to you.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "To some extent",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "I see what you did there, but I think there might be a small mistake - let's recall that we learned how to convert minutes to hours by multiplying the number of minutes by 1/60, so 3.5 hours multiplied by 60 minutes per hour is actually 210 minutes.",
+                "annotation": {
+                    "Actionability": "No",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "That is not correct. How many minutes are in one hour?",
+                "annotation": {
+                    "Actionability": "To some extent",
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "2501-49e48d81-b2e9-4ca4-9cbb-26a562b85a63",
+        "conversation_history": "Tutor: Hi, could you please provide a step-by-step solution for the question below? The question is: Jason has to drive home which is 120 miles away. If he drives at 60 miles per hour for 30 minutes, what speed does he have to average for the remainder of the drive to get there in exactly 1 hour 30 minutes? \n Student: In 30 minutes, Jason covers a distance of 60 x 0.5 = 30 miles.\nHe has 120 - 30 = 90 miles left to cover.\nTo cover 90 miles in 1 hour 30 minutes (or 1.5 hours), he needs to average a speed of 90/1.5 = 60 miles per hour.\nSince he already drove at 60 miles per hour for 30 minutes, he only needs to maintain the same speed for the remaining 1 hour (or 60 minutes).\n 60 \n Tutor: Jason covers a distance of 60 x 0.5 = 30 miles. He has 120 - 30 = 90 miles left to cover. To cover 90 miles in 1 hour 30 minutes (or 1.5 hours) he needs to average a speed of 90/1.5 = 60 miles per hour. Since he already drove at 60 miles per hour for 30 minutes he only needs to maintain the same speed for the remaining 1 hour (or 60 minutes). \n Tutor: i can see you have basically worked the majority of this out correctly well done. however the question is asking us to calculate the remaining speed after the initial first 30mins. Now knowing this how does this help you? \n Student: Since he already drove at 60 miles per hour for 30 minutes he only needs to maintain the same speed for the remaining 1 hour (or 60 minutes) to get home in 1 hour 30 minutes. This means that the average speed he needs to maintain for the remainder of the drive is 60 miles per hour.",
+        "tutor_responses": {
+            "Llama31405B": {
+                "response": "Here's a possible tutor response:\n\n\"Great job maintaining the correct average speed, but I want to clarify that since Jason has already driven for 30 minutes, he actually has 1 hour left to cover the remaining 90 miles, so can you think about how this changes the calculation for the speed he needs to average for the rest of the trip?\"",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Expert": {
+                "response": "3-2= 1 a simple algorithm will help you here. as you have already established for the first 30 minutes he drives 60mph. he needs to drive 120 miles in total in total. so as you stated he has 90 more miles to cover. how much time does he have left to cover the remaining distance?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: B"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "You're very close, but remember the question asks for the average speed needed for the *remaining* portion of the drive, not the overall trip. ",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "Great job! Keep practicing to enhance your understanding and skills further.",
+                "annotation": {
+                    "Mistake_Identification": "No",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: C"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "I see where your confusion is. Let's clarify this: since he has 90 miles left to cover in 1 hour, he actually needs to drive at an average speed of 90 miles per hour for the remaining journey to reach home in the total time of 1 hour 30 minutes.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "Great job on understanding the distance and time, but remember, the total travel time is 1 hour 30 minutes, so after the initial 30 minutes, Jason has 1 hour to cover the remaining distance – how does that change the required speed?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "I appreciate your effort, but let's think about this again: if Jason drove at 60 mph for the entire trip, would he arrive in 1 hour 30 minutes as the question states?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "You're close, but let's re-examine this - if Jason already drove 30 minutes at 60 miles per hour, that means he covered 30 miles, and he still has 90 miles left, so to cover those 90 miles in 1 hour (60 minutes), not 1 hour 30 minutes, he needs to average a speed of 90/1 = 90 miles per hour.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "conversation_id": "429348089",
+        "conversation_history": "Tutor: What is the value of 2800 subtracted by 65? \n Tutor: 2800-65=? \n Tutor: Are you there? \n Student: 1745",
+        "tutor_responses": {
+            "Expert": {
+                "response": "Great try! Let's check our answer. How can we check our answer?",
+                "annotation": {
+                    "Mistake_Identification": "To some extent",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Novice": {
+                "response": "Nice effort! I can see from your approach that you really understand the concept here. There is just one piece we need to look at again.",
+                "annotation": {
+                    "Mistake_Identification": "To some extent",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "No",
+                    "Actionability": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama318B": {
+                "response": "I can see you've tried your best, but let's take a closer look at the problem - when we subtract 65 from 2800, we need to make sure we're borrowing correctly from the hundreds place to the tens place, so let's go through it step by step together.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Phi3": {
+                "response": "Great effort! But remember to double-check your subtraction. Try using vertical calculation for more accuracy: 2800 - 65 equals?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Sonnet": {
+                "response": "That's a good attempt, but let's review the subtraction process together to find the correct answer.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "No",
+                    "Actionability": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Llama31405B": {
+                "response": "I can see that you're trying hard, but let's take a closer look at our subtraction problem - can you tell me how you got the answer 1745 so we can figure out where the mistake might be?",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Mistral": {
+                "response": "It looks like you might have subtracted 2800 by 650 instead of 65; let's try again together.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "No",
+                    "Providing_Guidance": "To some extent",
+                    "Actionability": "To some extent"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "GPT4": {
+                "response": "That's a great try, but it seems there was a small mistake. Actually, if we subtract 65 from 2800, we get 2735. Let's try another one to practice.",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "No"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            },
+            "Gemini": {
+                "response": "That's a good try! Remember when subtracting, we start with the ones place.  Let's try that again, carefully subtracting each place value. ",
+                "annotation": {
+                    "Mistake_Identification": "Yes",
+                    "Mistake_Location": "Yes",
+                    "Providing_Guidance": "Yes",
+                    "Actionability": "Yes"
+                },
+                "annotation_pred": {
+                    "mistake_identification": {
+                        "response": "Classification: A"
+                    }
+                }
+            }
+        }
+    }
+]

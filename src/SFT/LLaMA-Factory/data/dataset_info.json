@@ -1,0 +1,69 @@
+{
+  "identity": {
+    "file_name": "identity.json"
+  },
+  "mrbench_v3_devset_dev_track1": {
+  "file_name": "mrbench_v3_devset_dev_track1.json",
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "mrbench_v3_devset_train_track1": {
+  "file_name": "mrbench_v3_devset_train_track1.json",
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "mrbench_v3_devset_dev_track2": {
+  "file_name": "mrbench_v3_devset_dev_track2.json",
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "mrbench_v3_devset_train_track2": {
+  "file_name": "mrbench_v3_devset_train_track2.json",
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "mrbench_v3_devset_dev_track3": {
+  "file_name": "mrbench_v3_devset_dev_track3.json",
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "mrbench_v3_devset_train_track3": {
+  "file_name": "mrbench_v3_devset_train_track3.json",
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "mrbench_v3_devset_dev_track4": {
+  "file_name": "mrbench_v3_devset_dev_track4.json",
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "mrbench_v3_devset_train_track4": {
+  "file_name": "mrbench_v3_devset_train_track4.json",
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "system": "system"
+    }
+  }
+}
